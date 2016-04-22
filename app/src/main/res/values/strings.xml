@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">MyFirstApplication</string>
+    <string name="app_name">Toms Quote Server</string>
     <string name="action_settings">Settings</string>
 </resources>

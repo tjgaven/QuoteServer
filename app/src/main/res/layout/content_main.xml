@@ -24,18 +24,27 @@
             android:id="@+id/textViewAuthor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:text="Author"
+            android:textSize="40dp"
+            android:fontFamily="Roboto-thin"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/authorTextColor"
+            />
 
         <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fillViewport="true">
 
-             <TextView
-                 android:id="@+id/textViewBody"
+             <TextView android:id="@+id/textViewBody"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="scrolling text here " />
+                android:fontFamily="Roboto-regular"
+                android:textSize="50dp"
+                android:layout_marginLeft="5dp"
+                android:text="quote body" />
 
         </ScrollView>
     </LinearLayout>
